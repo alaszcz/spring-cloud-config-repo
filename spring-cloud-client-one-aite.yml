@@ -1,0 +1,26 @@
+environment:
+
+  name: AITE
+  version: 1.0
+  propsFormat: yaml
+
+datasource:
+
+  primary:
+     url: jdbc:mysql://localhost:3306/drupal7
+     username: drupal
+     password: drupal
+     platform: mysql
+     driverClassName: com.mysql.jdbc.Driver
+#     url: jdbc:mysql://db4free.net:3306/nbbtest1
+#     username: nbbuser
+#     password: nbbuser
+#     platform: mysql
+#     driverClassName: com.mysql.jdbc.Driver
+
+  secondary:
+      url: jdbc:mysql://localhost:3306/szkolrwu_psoslo_db
+      username: szkolrwu_dbuser1
+      password: pkO5oEay#;
+      platform: mysql
+      driverClassName: com.mysql.jdbc.Driver
