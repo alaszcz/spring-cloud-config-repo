@@ -1,0 +1,28 @@
+# Properties for development
+
+environment:
+
+  name: Development
+  version: 0.2
+  propsFormat: yaml
+
+datasource:
+
+  primary:
+    url: jdbc:hsqldb:mem:testdb
+    username: sa
+    password:
+    platform: hsqldb
+    driverClassName: org.hsqldb.jdbcDriver
+
+  secondary:
+    url: jdbc:hsqldb:mem:testdb
+    username: sa
+    password:
+    platform: hsqldb
+    driverClassName: org.hsqldb.jdbcDriver
+
+spring:
+
+  datasource:
+    platform: hsqldb

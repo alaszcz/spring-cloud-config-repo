@@ -1,0 +1,23 @@
+# Properties for AITE environment
+
+environment:
+
+  name: AITE
+  version: 2.0
+  propsFormat: yaml
+
+datasource:
+
+  primary:
+    url: jdbc:mysql://db4free.net:3306/nbbtest1
+    username: nbbuser
+    password: nbbuser
+    platform: mysql
+    driverClassName: com.mysql.jdbc.Driver
+
+  secondary:
+    url: jdbc:mysql://db4free.net:3306/nbbtest2
+    username: nbbbruker
+    password: nbbbruker
+    platform: mysql
+    driverClassName: com.mysql.jdbc.Driver
