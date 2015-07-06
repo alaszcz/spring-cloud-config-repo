@@ -11,13 +11,15 @@ datasource:
   primary:
     url: jdbc:mysql://db4free.net:3306/nbbtest1
     username: nbbuser
-    password: nbbuser
+    password: '{cipher}AQAXgN/0OSAYBmSSn8mf6DKsF0oEhy9ZwfA3ZCteVXq/2GLfUunR3Y7W1XwD0zTAmi1Mu3abkT4uYJSnZbAv8V0L1t6KryrUSmv3ssJLzSgJsUhGNh3BsxJWCTPJUSPN+JhAOtU2vX8ksk+JKcTCW77OEvd1AmkrFey9Xm/68rLVjLOGjVZJQBeaYFnatLginZSBKZsZYbVdB5jd0TcKrhAxcZEaf/cqN15ZgLFcng60NMK54Ig73ATvqISz8kmtMS7xdEW4rvVnYiOaaaPhLybZb1Sjfi6pexq4iN1RBDBDI6O//Wqe5pKggLpyQHUp8N29Pu+ydFpsWe1aEIKNRXKspgHJdvuS67/HE/hd5LiPB6RdqBNBUVN7nRh2dBbuv0g='
+#    password: nbbuser
     platform: mysql
     driverClassName: com.mysql.jdbc.Driver
 
   secondary:
     url: jdbc:mysql://db4free.net:3306/nbbtest2
     username: nbbbruker
-    password: nbbbruker
+    password: '{cipher}AQB1ae9q5A1nrq98u+5GJ1LVjxe8FGNjlk3P4IIjpA95M/n7tzeJRP66vHWrx140EoKMAd5l/b9brD2O8SPM9Oev6lsevtwnQ1hGh9JEiLypkV/XE0J25itp2rdvbrZrBK33pbD/3UYYD3E4Pt1eu2cCojFpxWGbxuWtso+m/jVwHAXUlhoNNRFFD+mcxZD8kDyEGDR6FZy5l/KtBnJb7AIbutYZ+shUwCOvTmUcryZzvQjDBjuZgNGn23DxCJHWXDKtXiFaMnSbZ/Pc6AyZxrfCL+5AkjQwAWcLxAgj8uYBDqnHd1OWZBfvU4LlnE3oh/kreKXrqPA8RWIrWcoYWJCOLCb7H4Zy+LOAydXzmqsqiT8C4IqdCPh/hbtTZ+lTYkg='
+#    password: nbbbruker
     platform: mysql
     driverClassName: com.mysql.jdbc.Driver
